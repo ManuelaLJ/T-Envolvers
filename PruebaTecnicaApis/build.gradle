@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation group: 'com.intuit.karate', name: 'karate-junit5', version: '1.2.0.RC4'
+    implementation 'org.testng:testng:7.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'net.masterthought', name: 'cucumber-reporting', version: '5.6.1'
+    implementation group: 'com.intuit.karate', name: 'karate-core', version: '1.2.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+}
+
+test {
+    useJUnitPlatform()
+}
