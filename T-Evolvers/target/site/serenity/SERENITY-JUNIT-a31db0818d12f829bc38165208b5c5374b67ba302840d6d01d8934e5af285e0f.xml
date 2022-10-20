@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Yo como usuario del sistema quiero agregar productos al carrito y validar el valor total a pagar" skipped="0" tests="2" time="41.26" timestamp="2022-10-15 11:24:23"><testcase name="Escenario"><error message="No such field co.com.certification.reto.models.Productos.cantProductos" type="cucumber.runtime.CucumberException">No such field co.com.certification.reto.models.Productos.cantProductos</error><system-err>No such field co.com.certification.reto.models.Productos.cantProductos&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
